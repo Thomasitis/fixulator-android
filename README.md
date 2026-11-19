@@ -11,3 +11,7 @@ Fixulator for Android is built on [RootlessJamesDSP](https://github.com/timschne
 by Tim Schneeberger and [libjamesdsp](https://github.com/ThePBone/JamesDSPManager) by James Fung and contributors,
 which handle the system-wide capture and playback. Like them, this app is licensed under the
 GNU General Public License v3 (see `LICENSE`). The Fixulator engine lives in `app/src/main/cpp/fixulator`.
+
+## Builds
+Every push to `main` builds a signed `Fixulator.apk` (same key every time, so updates install over the old version)
+and publishes it under **Releases → latest**.
