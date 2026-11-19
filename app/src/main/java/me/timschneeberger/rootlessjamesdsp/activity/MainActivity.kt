@@ -187,6 +187,13 @@ class MainActivity : BaseActivity() {
 
         // Rootless: Check permissions and launch onboarding if required
         if(SdkCheck.isQ && isRootless() && (!hasDumpPermission() || !hasRecordPermission())) {
+            // Fixulator: Android 11+ gets the easy in-app setup (Wireless debugging pairing) first
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.R && !hasDumpPermission() &&
+                !getSharedPreferences("fixulator", MODE_PRIVATE).getBoolean("easySetupSkipped", false)) {
+                startActivity(Intent(this, me.timschneeberger.rootlessjamesdsp.setup.EasySetupActivity::class.java))
+                this.finish()
+                return
+            }
             Timber.i("Launching onboarding (first boot: $firstBoot)")
 
             startActivity(Intent(this, OnboardingActivity::class.java).apply {

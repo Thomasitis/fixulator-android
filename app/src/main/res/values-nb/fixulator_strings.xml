@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fx_setup_intro">Fixulator trenger én tillatelse fra Android for å behandle lyd fra andre apper. Tre raske steg, alt på denne telefonen. Du må være på Wi-Fi.</string>
+    <string name="fx_setup_step1">Slå på utviklermodus</string>
+    <string name="fx_setup_step1_text">Trykk på knappen, finn «Byggnummer» (på noen telefoner under Programvareinformasjon, eller «Versjon») og trykk 7 ganger på den. Kom så tilbake hit.</string>
+    <string name="fx_setup_btn1">Åpne Om telefonen</string>
+    <string name="fx_setup_step2">Slå på trådløs feilsøking</string>
+    <string name="fx_setup_step2_text">Trykk på knappen, finn «Trådløs feilsøking» og slå den på (svar Tillat). Kom så tilbake hit.</string>
+    <string name="fx_setup_btn2">Åpne trådløs feilsøking</string>
+    <string name="fx_setup_step3">Par med kode</string>
+    <string name="fx_setup_step3_text">Trykk Start. I trådløs feilsøking trykker du «Par enhet med paringskode». Et Fixulator-varsel dukker opp: dra det ned, trykk «Skriv kode» og skriv de 6 sifrene som vises. Fixulator gjør resten.</string>
+    <string name="fx_setup_btn3">Start</string>
+    <string name="fx_setup_now_pair">Trykk nå «Par enhet med paringskode», og skriv koden i Fixulator-varselet.</string>
+    <string name="fx_setup_all_done">Alt klart. Starter Fixulator…</string>
+    <string name="fx_setup_other_method">Bruk en annen metode i stedet (Shizuku eller PC) ›</string>
+    <string name="fx_setup_channel">Fixulator-oppsett</string>
+    <string name="fx_setup_title">Fixulator-oppsett</string>
+    <string name="fx_setup_waiting">Venter… I trådløs feilsøking, trykk «Par enhet med paringskode».</string>
+    <string name="fx_setup_found">Paringskoden er klar. Trykk «Skriv kode» og skriv de 6 sifrene.</string>
+    <string name="fx_setup_failed">Det gikk ikke (%1$s). Åpne paringsvinduet på nytt og skriv den nye koden.</string>
+    <string name="fx_setup_enter_code">Skriv kode</string>
+    <string name="fx_setup_code_hint">6-sifret kode</string>
+    <string name="fx_setup_cancel">Avbryt</string>
+    <string name="fx_setup_pairing">Parer…</string>
+    <string name="fx_setup_granting">Setter opp tillatelser…</string>
+    <string name="fx_setup_done">Ferdig! Du kan slå av trådløs feilsøking igjen. Trykk for å åpne Fixulator.</string>
+</resources>

@@ -247,6 +247,16 @@
                 android:value="ongoing|silent" />
         </service>
 
+        <activity
+            android:name=".setup.EasySetupActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+
+        <service
+            android:name=".setup.PairingService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+
         <receiver
             android:name=".widget.FixulatorWidget"
             android:label="Fixulator"

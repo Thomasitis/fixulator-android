@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fx_setup_intro">Fixulator needs one permission from Android to process sound from other apps. Three quick steps, all on this phone. You must be on Wi-Fi.</string>
+    <string name="fx_setup_step1">Turn on developer mode</string>
+    <string name="fx_setup_step1_text">Tap the button, find \"Build number\" (on some phones under Software information, or \"Version\") and tap it 7 times. Then come back here.</string>
+    <string name="fx_setup_btn1">Open About phone</string>
+    <string name="fx_setup_step2">Turn on Wireless debugging</string>
+    <string name="fx_setup_step2_text">Tap the button, find \"Wireless debugging\" and switch it on (answer Allow). Then come back here.</string>
+    <string name="fx_setup_btn2">Open Wireless debugging</string>
+    <string name="fx_setup_step3">Pair with code</string>
+    <string name="fx_setup_step3_text">Tap Start. In Wireless debugging, tap \"Pair device with pairing code\". A Fixulator notification appears: pull it down, tap \"Enter code\" and type the 6 digits shown. Fixulator does the rest.</string>
+    <string name="fx_setup_btn3">Start</string>
+    <string name="fx_setup_now_pair">Now tap \"Pair device with pairing code\", then type the code in the Fixulator notification.</string>
+    <string name="fx_setup_all_done">All set. Starting Fixulator…</string>
+    <string name="fx_setup_other_method">Use another method instead (Shizuku or computer) ›</string>
+    <string name="fx_setup_channel">Fixulator setup</string>
+    <string name="fx_setup_title">Fixulator setup</string>
+    <string name="fx_setup_waiting">Waiting… In Wireless debugging, tap \"Pair device with pairing code\".</string>
+    <string name="fx_setup_found">Pairing code ready. Tap \"Enter code\" and type the 6 digits.</string>
+    <string name="fx_setup_failed">Didn\'t work (%1$s). Open the pairing dialog again and enter the new code.</string>
+    <string name="fx_setup_enter_code">Enter code</string>
+    <string name="fx_setup_code_hint">6-digit code</string>
+    <string name="fx_setup_cancel">Cancel</string>
+    <string name="fx_setup_pairing">Pairing…</string>
+    <string name="fx_setup_granting">Setting up permissions…</string>
+    <string name="fx_setup_done">Done! You can switch Wireless debugging off again. Tap to open Fixulator.</string>
+</resources>
