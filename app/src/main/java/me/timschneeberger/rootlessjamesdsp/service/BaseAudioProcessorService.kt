@@ -20,11 +20,13 @@ abstract class BaseAudioProcessorService : Service() {
     override fun onCreate() {
         activeServices++
         super.onCreate()
+        me.timschneeberger.rootlessjamesdsp.widget.FixulatorWidget.updateAll(this)
     }
 
     override fun onDestroy() {
         activeServices--
         super.onDestroy()
+        me.timschneeberger.rootlessjamesdsp.widget.FixulatorWidget.updateAll(this)
     }
 
     companion object {
