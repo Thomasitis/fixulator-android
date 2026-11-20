@@ -170,8 +170,9 @@ object ContextExtensions {
     // Very simple & naive app cloner checks; please don't use multiple instances at once
     private val PKGNAME_REFS = setOf("bWUudGltc2NobmVlYmVyZ2VyLnJvb3RsZXNzamFtZXNkc3A=",
         "bWUudGltc2NobmVlYmVyZ2VyLnJvb3RsZXNzamFtZXNkc3AuZGVidWc=",
-        "amFtZXMuZHNw", "amFtZXMuZHNwLmRlYnVn")
-    private val APPNAME_REFS = setOf("Um9vdGxlc3NKYW1lc0RTUA==", "SmFtZXNEU1A=")
+        "amFtZXMuZHNw", "amFtZXMuZHNwLmRlYnVn",
+        "bm8uZ2F6cGFjaG8uZml4dWxhdG9y" /* Fixulator for Android, GPL derivative */)
+    private val APPNAME_REFS = setOf("Um9vdGxlc3NKYW1lc0RTUA==", "SmFtZXNEU1A=", "Rml4dWxhdG9y")
     fun Context.check(): Int {
         val appName = getAppName()
         if(isPlugin()) return 0
